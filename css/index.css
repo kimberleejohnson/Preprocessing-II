@@ -1,3 +1,13 @@
+@keyframes colorchange {
+  from {
+    background-color: teal;
+    color: white;
+  }
+  to {
+    background-color: white;
+    color: teal;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -318,6 +328,9 @@ img {
   text-align: center;
   border-radius: 90%;
   border: 1px solid gray;
+  animation-name: colorchange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {

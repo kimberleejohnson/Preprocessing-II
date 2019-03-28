@@ -12,3 +12,16 @@
     border-radius: @border-radius;  
     border: @border;  
 }
+
+// animation code 
+@keyframes colorchange {
+    from {background-color: teal; color: white;}
+    to {background-color: white; color: teal;}
+}
+
+.btn-animation (@name: colorchange, @duration: 2s, @count: infinite) {
+    animation-name: @name; 
+    animation-duration: @duration; 
+    animation-iteration-count: @count; 
+
+}
