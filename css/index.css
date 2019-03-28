@@ -313,11 +313,12 @@ img {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+  justify-content: center;
 }
 .home .content-pick .destination .btn {
   width: 70%;
@@ -338,6 +339,7 @@ img {
     width: 100%;
     padding-right: 5%;
     padding-left: 5%;
+    align-items: center;
   }
 }
 @media (max-width: 500px) {
